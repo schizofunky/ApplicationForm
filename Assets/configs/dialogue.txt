@@ -1,0 +1,103 @@
+{
+  "conversations": [
+    {
+      "sentences": [
+        "Whoa....",
+        "It looks like Mediatonic are hiring a new developer!",
+        "I've heard it's a great place to work, maybe I should send in an Application?",
+        "Hmm... but where 2should I start?",
+        "I guess I should start with why I want to join them!",
+        "There should be some good reasons over to the left!",
+        "I should gather them and put them on the application!"
+      ]
+    },
+    {
+      "sentences": [
+        "Perfect!",
+        "Now they know why I want to join them!",
+        "But maybe I should let them know why they should want me?",
+        "I've got some skills around here someplace",
+        "Maybe over to the right?"
+      ]
+    },
+    {
+      "sentences": [
+        "Okay! This is starting to look good!",
+        "I should probably tell them about myself too!",
+        "I saw some hobbies and projects scattered to the south!",
+        "They should do the trick!"
+      ]
+    },
+    {
+      "sentences": [
+        "Perfect!!",
+        "Now it's time to send it to the good folks at Mediatonic!",
+        "Hope they like it!"
+      ]
+    }
+  ],
+  "pickups": [
+    {
+      "name": "Game Variety",
+      "description": "I like the idea of working on multiple different projects instead of working on one for many years."
+    },
+    {
+      "name": "Console games",
+      "description": "I have done web and mobile games but am very eager to work on Mobile games!"
+    },
+    {
+      "name": "Great games",
+      "description": "I am really impressed with the games that Mediatonic produces! "
+    },
+    {
+      "name": "C++",
+      "description": "I studied C++ at University and have been using it again recently with Marmalade"
+    },
+    {
+      "name": "C#",
+      "description": "I have done all the things in C#"
+    },
+    {
+      "name": "Flash",
+      "description": "I've worked in Actionscript 2 and 3 for many years"
+    },
+    {
+      "name": "Gaming",
+      "description": "I love games! Both playing them and making them!"
+    },
+    {
+      "name": "Anime",
+      "description": "I enjoy watching anime!!"
+    },
+    {
+      "name": "Running",
+      "description": "Run you clever boy!"
+    }
+  ],
+  "messages":[
+  {
+  	"key":"INPUT_PROMPT",
+  	"value":"Press 'Space' to update!"
+  },
+  {
+  	"key":"RETURN_OBJECTIVE",
+  	"value":"Add {0} to Application"
+  },
+  {
+  	"key":"COLLECT_OBJECTIVE",
+  	"value":"Collect {0} - {1}/{2}"
+  },
+  {
+  	"key":"OBJECTIVE_0",
+  	"value":"reasons"
+  },
+  {
+  	"key":"OBJECTIVE_1",
+  	"value":"skills"
+  },
+  {
+  	"key":"OBJECTIVE_2",
+  	"value":"interests"
+  }
+  ]
+}

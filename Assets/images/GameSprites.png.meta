@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 71fd81881c5ce2f4d9cb4fd0b25664e8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CV_1
+    21300002: CSharp
+    21300004: CPP
+    21300006: Floor_Tile
+    21300008: CommandPromptWindow
+    21300010: CloseButton
+    21300012: PlayerProfileImage
+    21300014: PlainSquare
+    21300016: CV_2
+    21300018: CV_3
+    21300020: CV_4
+    21300022: Flash
+    21300024: RobotUnicorn
+    21300026: Baron
+    21300028: Hatoful
+    21300030: Controller
+    21300032: Trainers
+    21300034: Pikachu
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CV_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 359
+        width: 169
+        height: 246
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CSharp
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 817
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CPP
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 684
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Floor_Tile
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 805
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CommandPromptWindow
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 778
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 12, z: 13, w: 27}
+    - name: CloseButton
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 736
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerProfileImage
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 624
+        width: 405
+        height: 400
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CV_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 358
+        width: 169
+        height: 246
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CV_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 357
+        width: 169
+        height: 246
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CV_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 356
+        width: 169
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flash
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 920
+        width: 47
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RobotUnicorn
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 650
+        width: 103
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Baron
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 771
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hatoful
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 905
+        width: 92
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 940
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainers
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 794
+        width: 120
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pikachu
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 648
+        width: 107
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

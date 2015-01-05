@@ -4,8 +4,7 @@ using System.Collections;
 
 public class ObjectivePanel : MonoBehaviour {
 
-	[SerializeField]
-	private Text _objectiveText;
+	public Text _objectiveText;
 
 	public void UpdateObjective(string objective) 
 	{

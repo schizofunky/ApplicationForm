@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class ConsoleDialogBox : MonoBehaviour {
 
-	[SerializeField]
-	private Text _titleTextUI;
-	[SerializeField]
-	private Text _descriptionTextUI;
+	public Text _titleTextUI;
+	public Text _descriptionTextUI;
 
 	private Action _onClosed;
 
+	/*
+	 * Sets up the Console UI with the passed pickup data and enables it
+	 * Also stores an Action delegate reference for when the screen is closed
+	 */ 
 	public void Show(PickupData pickup, Action onClosed)
 	{
 		_titleTextUI.text = pickup.name;

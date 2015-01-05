@@ -5,7 +5,7 @@
         "Whoa....",
         "It looks like Mediatonic are hiring a new developer!",
         "I've heard it's a great place to work, maybe I should send in an Application?",
-        "Hmm... but where 2should I start?",
+        "Hmm... but where should I start?",
         "I guess I should start with why I want to join them!",
         "There should be some good reasons over to the left!",
         "I should gather them and put them on the application!"
@@ -24,7 +24,7 @@
       "sentences": [
         "Okay! This is starting to look good!",
         "I should probably tell them about myself too!",
-        "I saw some hobbies and projects scattered to the south!",
+        "I saw some hobbies and interests scattered behind me!",
         "They should do the trick!"
       ]
     },
@@ -39,45 +39,49 @@
   "pickups": [
     {
       "name": "Game Variety",
-      "description": "I like the idea of working on multiple different projects instead of working on one for many years."
+      "description": "I like the idea of working on multiple different projects instead of working on one for many years.  I am very comfortable working in small teams as well as large teams and am very passionate and dedicated about my work which I want to share with Mediatonic!"
     },
     {
-      "name": "Console games",
-      "description": "I have done web and mobile games but am very eager to work on Mobile games!"
+      "name": "Next gen consoles",
+      "description": "I have done web and mobile games but am very eager to expand and work on consoles.  I want to work with the latest technologies and software to keep ahead of our rapidly expanding industry."
     },
     {
       "name": "Great games",
-      "description": "I am really impressed with the games that Mediatonic produces! "
+      "description": "I am really impressed with the games that Mediatonic produces! The games are beautiful, funny and polished to a high standard!  I would love to contribute to these!"
     },
     {
       "name": "C++",
-      "description": "I studied C++ at University and have been using it again recently with Marmalade"
+      "description": "I studied C++ at University working with OpenGL and Direct X but did not get the chance to use it again for many years.  Recently I have been catching up with my old friends: pointers and header files and have been dabbling with Cocos2D and Marmalade."
     },
     {
       "name": "C#",
-      "description": "I have done all the things in C#"
+      "description": "C# started as a hobby for me playing with Unity. It progressed to writing tutorials and teaching Game Development lessons and finally I got to work on my first commercial game in it - 'Moshling Rescue'"
     },
     {
       "name": "Flash",
-      "description": "I've worked in Actionscript 2 and 3 for many years"
+      "description": "I've worked in Actionscript for many years. The biggest project being 'Moshi Monsters' where I created various systems and minigames.  I gained lots of experience here using client server architecture and continuous deployment using a variety of tools including TeamCity, Ant and Maven."
     },
     {
       "name": "Gaming",
-      "description": "I love games! Both playing them and making them!"
+      "description": "I love games! Both playing them and making them! I am always working on games in my spare time, be it to learn a new skill or just experiment with a cool idea.  Some of my favourite games are: Final Fantasy VII, Resident Evil 2, Legacy of Kain and Skyrim."
     },
     {
-      "name": "Anime",
-      "description": "I enjoy watching anime!!"
+      "name": "Japanese Culture",
+      "description": "For years I've been interested in Japanese Culture.  I have an AS level in the language and am a big fan of Anime, Manga and J-Pop!  I'm also prone to the occasional Cosplay!"
     },
     {
       "name": "Running",
-      "description": "Run you clever boy!"
+      "description": "To counterbalance my geeky side I like to run often.  Last year I completed my first half marathon and dream of running the London Marathon one day!"
     }
   ],
   "messages":[
   {
   	"key":"INPUT_PROMPT",
   	"value":"Press 'Space' to update!"
+  },
+  {
+  	"key":"MOVE_PROMPT",
+  	"value":"Use the 'Arrow' keys to move!"
   },
   {
   	"key":"RETURN_OBJECTIVE",

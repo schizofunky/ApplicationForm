@@ -3,7 +3,9 @@ using System.Collections;
 using SimpleJSON;
 
 public class DialogueParser {
-
+	/*
+	 * Parses a JSON dialogue file
+	 */ 
 	public Dialogue parse(string dialogueText)
 	{
 		var data = JSON.Parse(dialogueText);
@@ -14,6 +16,9 @@ public class DialogueParser {
 		return dialogue;
 	}
 
+	/*
+	 * Parses the conversation nodes of the JSON 
+	 */ 
 	private List<Conversation> ParseConversations(JSONArray conversationObjects)
 	{
 		var conversationList = new List<Conversation>();
@@ -30,6 +35,9 @@ public class DialogueParser {
 		return conversationList;
 	}
 
+	/*
+	 * Parses the pickup nodes of the JSON 
+	 */ 
 	private List<PickupData> ParsePickupData(JSONArray pickupObjects)
 	{		
 		var pickupList = new List<PickupData>();
@@ -42,7 +50,10 @@ public class DialogueParser {
 		}
 		return pickupList;
 	}	
-	
+
+	/*
+	 * Parses the ui message nodes of the JSON 
+	 */ 
 	private Dictionary<string,string> ParseMessages(JSONArray messages)
 	{		
 		var dictionary = new Dictionary<string,string>();
@@ -53,7 +64,9 @@ public class DialogueParser {
 		return dictionary;
 	}
 }
-
+/*
+ * Structs to hold all of the parsed data, using more readable names
+ */ 
 public struct Conversation
 {
 	public List<string> sentences; 
@@ -68,6 +81,7 @@ public struct PickupData
 public struct Dialogue
 {
 	public static string INPUT_PROMPT = "INPUT_PROMPT";
+	public static string MOVE_PROMPT = "MOVE_PROMPT";
 	public static string COLLECT_OBJECTIVE = "COLLECT_OBJECTIVE";
 	public static string RETURN_OBJECTIVE = "RETURN_OBJECTIVE";
 	public static string OBJECTIVE = "OBJECTIVE_";

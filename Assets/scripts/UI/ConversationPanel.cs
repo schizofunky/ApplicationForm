@@ -6,13 +6,16 @@ using UnityEngine.UI;
 
 public class ConversationPanel : MonoBehaviour {
 
-	[SerializeField]
-	private Text _textUI;
+	public Text _textUI;
 
 	private Conversation _conversation;
 	private Action _onClosedCallback;
 	private int _currentSentenceIndex;
 
+	/*
+	 * Sets up the Converstaion panel with the passed conversation text and enables it
+	 * Also stores an Action delegate reference for when the screen is closed
+	 */ 
 	public void Show(Conversation conversation, Action onClosedCallback)
 	{
 		_conversation = conversation;
@@ -22,6 +25,10 @@ public class ConversationPanel : MonoBehaviour {
 		gameObject.SetActive(true);
 	}
 
+	/*
+	 * Each time this is called it shows the next available sentence in the conversation until it runs out
+	 * It then calls the close function
+	 */ 
 	public void ShowNextSentence()
 	{
 		if (++_currentSentenceIndex == _conversation.sentences.Count)

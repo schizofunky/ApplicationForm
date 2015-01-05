@@ -3,8 +3,7 @@ using System.Collections;
 
 public class MovementScript : MonoBehaviour {
 
-	[SerializeField]
-	private float _speed = 4;
+	public float _speed = 4;
 
 	private Vector2 _movement;
 	private Animator _animator;
@@ -14,6 +13,9 @@ public class MovementScript : MonoBehaviour {
 		_animator = GetComponent<Animator>();
 	}
 
+	/*
+	 * Stop all movement immediately and disable this script
+	 */ 
 	public void DisableMovement()
 	{
 		_animator.SetFloat("Horizontal",0);
@@ -28,12 +30,14 @@ public class MovementScript : MonoBehaviour {
 		this.enabled = true;
 	}
 
-	public void SetIdleUp()
+	public void ShowExamineAnimation()
 	{		
-		_animator.SetFloat("Vertical",0.01f);
-		_animator.SetBool("Idle",true);
+		_animator.SetTrigger("Examine");
 	}
-	
+
+	/*
+	 * USes the input axis to calculate movement, and sets idle if necessary
+	 */ 
 	private void Update()
 	{
 		float inputX = Input.GetAxis("Horizontal");
@@ -46,7 +50,9 @@ public class MovementScript : MonoBehaviour {
 			_speed * inputY);
 
 	}
-	
+	/*
+	 * The fixed update is used to animate the movement using the pre claculated values
+	 */ 
 	private void FixedUpdate()
 	{
 		rigidbody2D.velocity = _movement;

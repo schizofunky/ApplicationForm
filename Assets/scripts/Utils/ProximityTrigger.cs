@@ -3,6 +3,10 @@ using System.Collections;
 
 public class ProximityTrigger : MonoBehaviour {
 
+	/*
+	 * This helper behaviour is used by other classes to check and handle collisions
+	 * to objects that use this behaviour
+	 */
 	private bool _withinRange;
 	
 	public bool WithinRange
